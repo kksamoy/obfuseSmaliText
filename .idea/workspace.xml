@@ -7,12 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5fb59e1c-8e8b-4e83-975f-c1c9665242eb" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/obfuseSmaliString_jar/obfuseSmaliString.jar" afterPath="$PROJECT_DIR$/out/artifacts/obfuseSmaliString_jar/obfuseSmaliString.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/obfuseSmaliString/ObfuseJarString.class" afterPath="$PROJECT_DIR$/out/production/obfuseSmaliString/ObfuseJarString.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/obfuseSmaliString/visitor/TestClassVisitor.class" afterPath="$PROJECT_DIR$/out/production/obfuseSmaliString/visitor/TestClassVisitor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/obfuseSmaliString/com/OooOO0OO.class" afterPath="$PROJECT_DIR$/out/production/obfuseSmaliString/com/OooOO0OO.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ObfuseJarString.java" afterPath="$PROJECT_DIR$/src/ObfuseJarString.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/OooOO0OO.java" afterPath="$PROJECT_DIR$/src/com/OooOO0OO.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,10 +31,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ObfuseJarString.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ObfuseJarString.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ObfuseJarString.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1602">
+            <state relative-caret-position="-988">
               <caret line="125" column="37" lean-forward="false" selection-start-line="125" selection-start-column="37" selection-end-line="125" selection-end-column="37" />
               <folding />
             </state>
@@ -103,10 +99,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HexClassVisitor.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="HexClassVisitor.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/visitor/HexClassVisitor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-85">
+            <state relative-caret-position="-274">
               <caret line="16" column="22" lean-forward="false" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -867,7 +863,7 @@
       <workItem from="1489497737435" duration="1299000" />
       <workItem from="1489499875192" duration="124000" />
       <workItem from="1489541483652" duration="4190000" />
-      <workItem from="1489550691087" duration="598000" />
+      <workItem from="1489550691087" duration="2231000" />
     </task>
     <task id="LOCAL-00001" summary="update,work correctly now">
       <created>1488361786302</created>
@@ -939,11 +935,18 @@
       <option name="project" value="LOCAL" />
       <updated>1489550430277</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="jar包混淆支持自定义key！！！">
+      <created>1489551308893</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1489551308893</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60099000" />
+    <option name="totallyTimeSpent" value="61732000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
@@ -957,8 +960,8 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24403471" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24403471" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -992,7 +995,8 @@
     <MESSAGE value="添加自动化任务jar包" />
     <MESSAGE value="修正jar包混淆字符串时不指定new String编码造成的中文乱码问题" />
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="jar包混淆支持自定义key！！！" />
+    <option name="LAST_COMMIT_MESSAGE" value="jar包混淆支持自定义key！！！" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1277,16 +1281,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/visitor/HexClassVisitor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-85">
-          <caret line="16" column="22" lean-forward="false" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/OooOO0OO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="309">
@@ -1299,9 +1293,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ObfuseJarString.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1602">
+        <state relative-caret-position="-988">
           <caret line="125" column="37" lean-forward="false" selection-start-line="125" selection-start-column="37" selection-end-line="125" selection-end-column="37" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/visitor/HexClassVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-274">
+          <caret line="16" column="22" lean-forward="false" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
