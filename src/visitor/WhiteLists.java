@@ -33,7 +33,7 @@ public final class WhiteLists {
         addWhiteList("mozilla", FLAG_PACKAGE);
         addWhiteList("okhttp3", FLAG_PACKAGE);
         addWhiteList("okio", FLAG_PACKAGE);
-        addWhiteList("org", FLAG_PACKAGE);
+        //   addWhiteList("org", FLAG_PACKAGE);
 
         // default classes short name in white list.
         addWhiteList("BuildConfig", FLAG_CLASS);

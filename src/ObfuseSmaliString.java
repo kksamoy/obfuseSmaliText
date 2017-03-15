@@ -1,10 +1,7 @@
-import com.sun.scenario.effect.impl.sw.sse.SSEBlend_SRC_OUTPeer;
 import org.apache.commons.lang3.StringEscapeUtils;
 
-import javax.jws.soap.SOAPBinding;
 import java.io.*;
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
 import java.util.Scanner;
 import java.util.regex.Matcher;
@@ -13,7 +10,7 @@ import java.util.regex.Pattern;
 /**
  * Created by qtfreet on 2017/2/24.
  */
-public class Main {
+public class ObfuseSmaliString {
     static {
 
     }
@@ -53,7 +50,7 @@ public class Main {
             if (!file.exists() || !file.isDirectory()) {
                 file.mkdir();
             }
-            InputStream resourceAsStream = Main.class.getResourceAsStream("/qtfreet00.smali");
+            InputStream resourceAsStream = ObfuseSmaliString.class.getResourceAsStream("/qtfreet00.smali");
             InputStreamReader read = new InputStreamReader(resourceAsStream);
             BufferedReader br = new BufferedReader(read);
             String str = "";

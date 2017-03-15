@@ -133,10 +133,10 @@ public class ObfuseJarString {
 
         try {
             //目前不支持换加密key
-            processJar(jarIn, jarOut, "nihaoa", Charset.forName("UTF-8"), Charset.forName("UTF-8"), b);
+            processJar(jarIn, jarOut, "tangjiajunabushiduodingmie", Charset.forName("UTF-8"), Charset.forName("UTF-8"), b);
         } catch (IllegalArgumentException e) {
             if ("MALFORMED".equals(e.getMessage())) {
-                processJar(jarIn, jarOut, "nihaoa", Charset.forName("GBK"), Charset.forName("UTF-8"), b);
+                processJar(jarIn, jarOut, "tangjiajunabushiduodingmie", Charset.forName("GBK"), Charset.forName("UTF-8"), b);
             } else {
                 throw e;
             }

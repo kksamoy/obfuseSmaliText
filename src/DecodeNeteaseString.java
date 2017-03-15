@@ -11,7 +11,7 @@ import java.util.regex.Pattern;
 /**
  * Created by qtfreet on 2017/2/24.
  */
-public class DecodeNetease {
+public class DecodeNeteaseString {
 
     private static List<String> filelist = new ArrayList();
 
@@ -40,6 +40,7 @@ public class DecodeNetease {
 
 
     private static final String key = "Encrypt";
+
     //网易云音乐的字符串混淆方法
     public static String decode(String str) {
         if (str == null) {

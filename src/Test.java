@@ -1,14 +1,16 @@
 import java.io.ByteArrayOutputStream;
+import java.io.UnsupportedEncodingException;
 
 /**
  * Created by qtfreet00 on 2017/3/14.
  */
 public class Test {
-    public static void main(String[] args) {
-        String s=qtfreet00.encode("你好啊");
-        System.out.println(s);
+    public static void main(String[] args) throws UnsupportedEncodingException {
+//        String s=qtfreet00.encode("你好啊");
+//        System.out.println(s);
+//
+//        System.out.println(OooOOoo0oo("C586AD91D9DDC192CB8AB2B3"));
 
-        System.out.println(OooOOoo0oo("C586AD91D9DDC192CB8AB2B3"));
     }
     public static final String DEFAULT_KEY = "qtfreet";
     private static final String hexString = "0123456789ABCDEF";

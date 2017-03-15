@@ -11,7 +11,7 @@ import java.util.regex.Pattern;
 /**
  * Created by qtfreet on 2017/3/13.
  */
-public class DecodeDasho {
+public class DecodeDashoString {
 
     private static List<String> filelist = new ArrayList();
 
