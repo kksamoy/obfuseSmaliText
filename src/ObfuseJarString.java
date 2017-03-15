@@ -19,7 +19,6 @@ import java.util.zip.ZipOutputStream;
 public class ObfuseJarString {
 
 
-
     static char hexData[] = {
             0xCA, 0xFE, 0xBA, 0xBE, 0x00, 0x00, 0x00, 0x34, 0x00, 0x51, 0x0A, 0x00, 0x11, 0x00, 0x35, 0x08,
             0x00, 0x36, 0x07, 0x00, 0x37, 0x0A, 0x00, 0x0D, 0x00, 0x38, 0x0A, 0x00, 0x03, 0x00, 0x39, 0x07,
@@ -134,10 +133,10 @@ public class ObfuseJarString {
 
         try {
             //目前不支持换加密key
-            processJar(jarIn, jarOut, "qtfreet", Charset.forName("UTF-8"), Charset.forName("UTF-8"), b);
+            processJar(jarIn, jarOut, "nihaoa", Charset.forName("UTF-8"), Charset.forName("UTF-8"), b);
         } catch (IllegalArgumentException e) {
             if ("MALFORMED".equals(e.getMessage())) {
-                processJar(jarIn, jarOut, "qtfreet", Charset.forName("GBK"), Charset.forName("UTF-8"), b);
+                processJar(jarIn, jarOut, "nihaoa", Charset.forName("GBK"), Charset.forName("UTF-8"), b);
             } else {
                 throw e;
             }
@@ -174,7 +173,7 @@ public class ObfuseJarString {
             }
             ZipEntry eninject = new ZipEntry("com/OooOO0OO.class");
             zos.putNextEntry(eninject);
-            zos.write(out);
+            zos.write(changeKey(out, key));
             zos.closeEntry();
 
         } finally {
@@ -183,12 +182,21 @@ public class ObfuseJarString {
         }
     }
 
+    private static byte[] changeKey(byte[] in, String key) {
+        ClassReader cr = new ClassReader(in);
+        ClassWriter cw = new ClassWriter(0);
+        ClassVisitor aia = ClassVisitorFactory.create(cr.getClassName(), key, cw);
+        //   ClassVisitor aia = new TestClassVisitor("", cw);
+        cr.accept(aia, 0);
+        return cw.toByteArray();
+    }
+
 
     private static void processClass(InputStream classIn, OutputStream classOut, String key) throws IOException {
         ClassReader cr = new ClassReader(classIn);
         ClassWriter cw = new ClassWriter(0);
         ClassVisitor aia = ClassVisitorFactory.create(cr.getClassName(), key, cw);
-     //   ClassVisitor aia = new TestClassVisitor("", cw);
+        //   ClassVisitor aia = new TestClassVisitor("", cw);
         cr.accept(aia, 0);
         classOut.write(cw.toByteArray());
         classOut.flush();

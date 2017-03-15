@@ -17,10 +17,10 @@ public class OooOO0OO {
         //根据默认编码获取字节数组
         byte[] bytes = str.getBytes();
         int len = bytes.length;
-        int keyLen = DEFAULT_KEY.length();
+        int keyLen = key.length();
         for (int i = 0; i < len; i++) {
             //对每个字节进行异或
-            bytes[i] = (byte) (bytes[i] ^ DEFAULT_KEY.charAt(i % keyLen));
+            bytes[i] = (byte) (bytes[i] ^ key.charAt(i % keyLen));
         }
         StringBuilder sb = new StringBuilder(bytes.length * 2);
         //将字节数组中每个字节拆解成2位16进制整数
