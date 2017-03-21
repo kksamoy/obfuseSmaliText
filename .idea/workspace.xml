@@ -7,38 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5fb59e1c-8e8b-4e83-975f-c1c9665242eb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/obfuseSmaliString.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/runJarObfuse.bat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/runSmaliObfuse.bat" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/obfuseJarString.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/obfuseSmaliString_jar/obfuseSmaliString.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/obfuseSmaliString/DecodeDasho.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/obfuseSmaliString/DecodeNetease.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/obfuseSmaliString/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/obfuseSmaliString/Main.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/obfuseSmaliString/ObfuseJarString.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/obfuseSmaliString/Test.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/obfuseSmaliString/com/OooOO0OO.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/obfuseSmaliString/qtfreet00.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/obfuseSmaliString/qtfreet00.smali" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/obfuseSmaliString/visitor/ClassStringField.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/obfuseSmaliString/visitor/ClassVisitorFactory$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/obfuseSmaliString/visitor/ClassVisitorFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/obfuseSmaliString/visitor/HexClassVisitor$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/obfuseSmaliString/visitor/HexClassVisitor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/obfuseSmaliString/visitor/StringFieldClassVisitor$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/obfuseSmaliString/visitor/StringFieldClassVisitor$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/obfuseSmaliString/visitor/StringFieldClassVisitor$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/obfuseSmaliString/visitor/StringFieldClassVisitor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/obfuseSmaliString/visitor/TestClassVisitor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/obfuseSmaliString/visitor/TextUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/obfuseSmaliString/visitor/WhiteLists.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/obfuseSmaliString_jar.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/obfuseSmaliString_jar.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ObfuseJarString.java" afterPath="$PROJECT_DIR$/src/ObfuseJarString.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ObfuseSmaliString.java" afterPath="$PROJECT_DIR$/src/ObfuseSmaliString.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -71,6 +42,18 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="ObfuseJarString.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ObfuseJarString.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -81,7 +64,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="runJarObfuse.bat" pinned="false" current-in-tab="true">
+      <file leaf-file-name="runJarObfuse.bat" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/runJarObfuse.bat">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="48">
@@ -91,24 +74,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DecodeDashoString.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DecodeDashoString.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="29" column="40" lean-forward="false" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="432">
-                <caret line="22" column="73" lean-forward="false" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="73" />
+              <first_editor relative-caret-position="48">
+                <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -211,7 +182,6 @@
         <option value="$PROJECT_DIR$/src/visitor/ClassVisitorFactory.java" />
         <option value="$PROJECT_DIR$/src/visitor/StringFieldClassVisitor.java" />
         <option value="$PROJECT_DIR$/src/qtfreet00.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/asm-all-5.2.jar!/org/objectweb/asm/Opcodes.class" />
         <option value="$PROJECT_DIR$/asm-all-5.2.jar!/org/objectweb/asm/ClassVisitor.class" />
         <option value="$PROJECT_DIR$/src/visitor/TestClassVisitor.java" />
@@ -227,6 +197,8 @@
         <option value="$PROJECT_DIR$/runSmaliObfuse.bat" />
         <option value="$PROJECT_DIR$/src/ObfuseJarString.java" />
         <option value="$PROJECT_DIR$/runJarObfuse.bat" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -870,7 +842,7 @@
       <workItem from="1489499875192" duration="124000" />
       <workItem from="1489541483652" duration="4190000" />
       <workItem from="1489550691087" duration="5090000" />
-      <workItem from="1490085858131" duration="1133000" />
+      <workItem from="1490085858131" duration="1471000" />
     </task>
     <task id="LOCAL-00001" summary="update,work correctly now">
       <created>1488361786302</created>
@@ -949,14 +921,22 @@
       <option name="project" value="LOCAL" />
       <updated>1489551308893</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="update">
+      <created>1490087197282</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1490087197282</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65724000" />
+    <option name="totallyTimeSpent" value="66062000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -973,7 +953,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1641791" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1641791" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1001,9 +981,9 @@
     <MESSAGE value="添加完整注释" />
     <MESSAGE value="添加自动化任务jar包" />
     <MESSAGE value="修正jar包混淆字符串时不指定new String编码造成的中文乱码问题" />
-    <MESSAGE value="update" />
     <MESSAGE value="jar包混淆支持自定义key！！！" />
-    <option name="LAST_COMMIT_MESSAGE" value="jar包混淆支持自定义key！！！" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1184,16 +1164,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/12306obfused.jar!/Main.class" />
     <entry file="file://$PROJECT_DIR$/src/visitor/StringFieldClassVisitor.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1263,14 +1233,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ObfuseSmaliString.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -1284,17 +1246,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="432">
-            <caret line="22" column="73" lean-forward="false" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="73" />
-            <folding />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -1319,6 +1270,35 @@
         <state relative-caret-position="48">
           <caret line="2" column="5" lean-forward="true" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="48">
+            <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
