@@ -14,6 +14,9 @@ smali字符串混淆
 ##### 2017-3-14
 参考StringFog，增加对jar包的字符串混淆（使用asm）,但目前不支持自定义key
 
+##### 2017-3-21
+修复了因ide字符串替换导致的错误，编译了两个可执行jar包，并写了两个bat文件，双击即可执行
+
 ##### 使用方法
 * 先使用apktool.jar将apk进行反编译
 * java -jar 执行obfuseSmaliString.jar(jar包自行编译)
