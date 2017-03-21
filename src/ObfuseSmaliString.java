@@ -58,7 +58,7 @@ public class ObfuseSmaliString {
             while ((str = br.readLine()) != null) {
                 sb.append(str + "\n");
             }
-            FileOutputStream fos = new FileOutputStream(new File(path + "\\com.OooOO0OO.smali"));
+            FileOutputStream fos = new FileOutputStream(new File(path + "\\qtfreet00.smali"));
             fos.write(sb.toString().getBytes("UTF-8"));
             fos.flush();
             fos.close();
@@ -140,12 +140,12 @@ public class ObfuseSmaliString {
                     String dec = "";
                     if (Integer.parseInt(register.substring(1)) > 15 && register.startsWith("v")) {
                         //此处考虑寄存器个数，如果v寄存器大于15时，应使用range方式传参
-                        dec = "    invoke-static/range {" + register + " .. " + register + "}, Lcom/com.OooOO0OO;->OooOOoo0oo(Ljava/lang/String;)Ljava/lang/String;";
+                        dec = "    invoke-static/range {" + register + " .. " + register + "}, Lcom/qtfreet00;->decode(Ljava/lang/String;)Ljava/lang/String;";
                         //添加解密方法
                     } else if (register.startsWith("v") || (register.startsWith("p") && Integer.parseInt(register.substring(1)) < 10)) {
                         //此处p在10以上（不清楚具体），也会出现一些问题，由于没太接触过较大p寄存器，这里直接忽略掉了10以上的，实际应用中也很少会出现
                         //p在方法中一般代表入参，静态方法中从p0开始，非静态方法从p1开始，p0带表this
-                        dec = "    invoke-static {" + register + "}, Lcom/com.OooOO0OO;->OooOOoo0oo(Ljava/lang/String;)Ljava/lang/String;";
+                        dec = "    invoke-static {" + register + "}, Lcom/qtfreet00;->decode(Ljava/lang/String;)Ljava/lang/String;";
                     } else {
                         sb.append(str + "\n");
                         continue;
@@ -161,10 +161,10 @@ public class ObfuseSmaliString {
             br.close();
             read.close();
             //覆盖掉源文件
-//            FileOutputStream fos = new FileOutputStream(new File(path));
-//            fos.write(sb.toString().getBytes("UTF-8"));
-//            fos.flush();
-//            fos.close();
+            FileOutputStream fos = new FileOutputStream(new File(path));
+            fos.write(sb.toString().getBytes("UTF-8"));
+            fos.flush();
+            fos.close();
 
         } catch (Exception e) {
         }
@@ -189,4 +189,5 @@ public class ObfuseSmaliString {
         }
     }
 }
+
 

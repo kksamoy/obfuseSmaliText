@@ -127,16 +127,21 @@ public class ObfuseJarString {
             System.out.println("请输入正确的jar包路径");
             System.exit(0);
         }
+        System.out.println("请输入加密字符串key:");
+        String key = scanner.next();
+        if (key.isEmpty()) {
+            key = "qtfreet";
+        }
         int index = path.lastIndexOf(".jar");
         File jarIn = new File(path);
         File jarOut = new File(path.substring(0, index) + "obfused.jar");
 
         try {
             //目前不支持换加密key
-            processJar(jarIn, jarOut, "tangjiajunabushiduodingmie", Charset.forName("UTF-8"), Charset.forName("UTF-8"), b);
+            processJar(jarIn, jarOut, key, Charset.forName("UTF-8"), Charset.forName("UTF-8"), b);
         } catch (IllegalArgumentException e) {
             if ("MALFORMED".equals(e.getMessage())) {
-                processJar(jarIn, jarOut, "tangjiajunabushiduodingmie", Charset.forName("GBK"), Charset.forName("UTF-8"), b);
+                processJar(jarIn, jarOut, key, Charset.forName("GBK"), Charset.forName("UTF-8"), b);
             } else {
                 throw e;
             }
